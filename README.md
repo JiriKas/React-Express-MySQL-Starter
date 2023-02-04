@@ -1,12 +1,22 @@
-# Getting Started with Celinor
+## Fullstack starter template
 
 Node.js + Express.js + Knex.js + MySQL + React + Vite
 
-## Start
+## Getting Started
 
-Install devtools, frontend and backend packages
+1. Install devtools, frontend and backend packages
 
 ### `npm install`
+
+2. Create .env file from .env_sample
+
+3. Run database migration
+
+### `npm run migrate`
+
+4. Start concurrently the dev server and react app
+
+### `npm run dev`
 
 ## Environment variables
 
@@ -25,7 +35,7 @@ In the project directory, you can run:
 
 Runs migration to define initial table (user) with demo data.
 
-### `npm dev`
+### `npm run dev`
 
 Runs the app in the development mode.
 Frontend [http://localhost:5173](http://localhost:5173) to view it in your browser.
